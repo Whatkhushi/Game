@@ -53,7 +53,7 @@ class GuessingGame {
 
             if (!guessedCorrectly) {
                 System.out.println("You have used all " + maxAttempts + " attempts.");
-                System.out.print("Do you want to continue guessing? (yes/no): ");
+                System.out.print("Do you want to continue guessing is the question? (yes/no): ");
                 String response = sc.next();
 
                 if (!response.equalsIgnoreCase("yes")) {

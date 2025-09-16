@@ -33,7 +33,7 @@ class GuessingGame {
             attempts++;
 
             if (guess == number) {
-                System.out.println(" Congratulationsssss! You guessed the correct number in  " + attempts + " attempts.");
+                System.out.println(" Congratulationsssss!! You guessed the correct number in  " + attempts + " attempts.");
                 guessedCorrectly = true;
                 break;
             } else if (guess < number) {

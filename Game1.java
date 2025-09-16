@@ -22,7 +22,7 @@ class NumberGuessingGame {
             int guess = scanner.nextInt();
 
             if (guess == number) {
-                System.out.println("Congratulations! You guessed the correct number.");
+                System.out.println("Congratulations!! You guessed the correct number.");
                 return;
             } else if (guess < number) {
                 System.out.println("The number is greater than " + guess);
@@ -31,7 +31,7 @@ class NumberGuessingGame {
             }
         }
 
-        System.out.println("You've exhausted all attempts. The correct number was: " + number);
+        System.out.println("You've exhausted all attempts! The correct number was: " + number);
     }
 
     // Method to clean up resources
